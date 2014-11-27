@@ -1,0 +1,2 @@
+PODS_KINVEYKIT_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/KinveyKit" "$(PODS_ROOT)/KinveyKit/KinveyKit-1.27.1"
+PODS_KINVEYKIT_OTHER_LDFLAGS = -l"ObjC" -l"sqlite3" -framework "Accounts" -framework "CoreGraphics" -framework "CoreLocation" -framework "KinveyKit" -framework "MobileCoreServices" -framework "Security" -framework "Social" -framework "SystemConfiguration"
