@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4903A5D47246F03106A61F0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8793F367A0B70987668C0FEA /* libPods.a */; };
+		B583138F1A1D795700CC7217 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B583138E1A1D795700CC7217 /* LoginVC.swift */; };
+		B58313911A1D797900CC7217 /* AccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58313901A1D797900CC7217 /* AccessVC.swift */; };
 		B58955591A1D745200A94698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58955581A1D745200A94698 /* AppDelegate.swift */; };
-		B589555B1A1D745200A94698 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589555A1A1D745200A94698 /* ViewController.swift */; };
 		B589555E1A1D745200A94698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B589555C1A1D745200A94698 /* Main.storyboard */; };
 		B58955601A1D745200A94698 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B589555F1A1D745200A94698 /* Images.xcassets */; };
 		B58955631A1D745200A94698 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58955611A1D745200A94698 /* LaunchScreen.xib */; };
@@ -26,16 +28,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8793F367A0B70987668C0FEA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B583138E1A1D795700CC7217 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B58313901A1D797900CC7217 /* AccessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessVC.swift; sourceTree = "<group>"; };
 		B58955531A1D745200A94698 /* KUA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KUA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58955571A1D745200A94698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B58955581A1D745200A94698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B589555A1A1D745200A94698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B589555D1A1D745200A94698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B589555F1A1D745200A94698 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B58955621A1D745200A94698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B58955681A1D745200A94698 /* KUATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KUATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B589556D1A1D745200A94698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B589556E1A1D745200A94698 /* KUATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUATests.swift; sourceTree = "<group>"; };
+		B58955781A1D75CD00A94698 /* KUA-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KUA-Bridging-Header.h"; sourceTree = "<group>"; };
+		CA03FC29A43CA8D361CA08F5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E2B85DF3E7D80CFBF2DDD96E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4903A5D47246F03106A61F0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +64,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A3926BC1A15D19DAD520D6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8793F367A0B70987668C0FEA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B589554A1A1D745100A94698 = {
 			isa = PBXGroup;
 			children = (
 				B58955551A1D745200A94698 /* KUA */,
 				B589556B1A1D745200A94698 /* KUATests */,
 				B58955541A1D745200A94698 /* Products */,
+				ED998F5BF7926BAD9440E4B7 /* Pods */,
+				2A3926BC1A15D19DAD520D6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				B58955581A1D745200A94698 /* AppDelegate.swift */,
-				B589555A1A1D745200A94698 /* ViewController.swift */,
+				B583138E1A1D795700CC7217 /* LoginVC.swift */,
+				B58313901A1D797900CC7217 /* AccessVC.swift */,
 				B589555C1A1D745200A94698 /* Main.storyboard */,
 				B589555F1A1D745200A94698 /* Images.xcassets */,
 				B58955611A1D745200A94698 /* LaunchScreen.xib */,
@@ -91,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				B58955571A1D745200A94698 /* Info.plist */,
+				B58955781A1D75CD00A94698 /* KUA-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -112,6 +132,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ED998F5BF7926BAD9440E4B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2B85DF3E7D80CFBF2DDD96E /* Pods.debug.xcconfig */,
+				CA03FC29A43CA8D361CA08F5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B58955721A1D745200A94698 /* Build configuration list for PBXNativeTarget "KUA" */;
 			buildPhases = (
+				E3507ED6A96E71BEF8B3BE3B /* Check Pods Manifest.lock */,
 				B589554F1A1D745200A94698 /* Sources */,
 				B58955501A1D745200A94698 /* Frameworks */,
 				B58955511A1D745200A94698 /* Resources */,
+				10D218F74CED6EC568DC3AE1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,6 +192,7 @@
 				TargetAttributes = {
 					B58955521A1D745200A94698 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = L9Z52KXFTK;
 					};
 					B58955671A1D745200A94698 = {
 						CreatedOnToolsVersion = 6.1;
@@ -207,13 +239,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10D218F74CED6EC568DC3AE1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3507ED6A96E71BEF8B3BE3B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B589554F1A1D745200A94698 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B589555B1A1D745200A94698 /* ViewController.swift in Sources */,
+				B58313911A1D797900CC7217 /* AccessVC.swift in Sources */,
 				B58955591A1D745200A94698 /* AppDelegate.swift in Sources */,
+				B583138F1A1D795700CC7217 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,21 +402,33 @@
 		};
 		B58955731A1D745200A94698 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B85DF3E7D80CFBF2DDD96E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = KUA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "KUA/KUA-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		B58955741A1D745200A94698 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA03FC29A43CA8D361CA08F5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = KUA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "KUA/KUA-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +485,7 @@
 				B58955741A1D745200A94698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B58955751A1D745200A94698 /* Build configuration list for PBXNativeTarget "KUATests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +494,7 @@
 				B58955771A1D745200A94698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
