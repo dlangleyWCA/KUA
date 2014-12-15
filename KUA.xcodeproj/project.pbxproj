@@ -15,6 +15,7 @@
 		B58955601A1D745200A94698 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B589555F1A1D745200A94698 /* Images.xcassets */; };
 		B58955631A1D745200A94698 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58955611A1D745200A94698 /* LaunchScreen.xib */; };
 		B589556F1A1D745200A94698 /* KUATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B589556E1A1D745200A94698 /* KUATests.swift */; };
+		B5BCAF571A2D9EEE004A1F91 /* RecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BCAF561A2D9EEE004A1F91 /* RecordsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		B589556D1A1D745200A94698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B589556E1A1D745200A94698 /* KUATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUATests.swift; sourceTree = "<group>"; };
 		B58955781A1D75CD00A94698 /* KUA-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KUA-Bridging-Header.h"; sourceTree = "<group>"; };
+		B5BCAF561A2D9EEE004A1F91 /* RecordsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsVC.swift; sourceTree = "<group>"; };
 		CA03FC29A43CA8D361CA08F5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E2B85DF3E7D80CFBF2DDD96E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				B58955581A1D745200A94698 /* AppDelegate.swift */,
+				B5BCAF561A2D9EEE004A1F91 /* RecordsVC.swift */,
 				B583138E1A1D795700CC7217 /* LoginVC.swift */,
 				B58313901A1D797900CC7217 /* AccessVC.swift */,
 				B589555C1A1D745200A94698 /* Main.storyboard */,
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B58313911A1D797900CC7217 /* AccessVC.swift in Sources */,
+				B5BCAF571A2D9EEE004A1F91 /* RecordsVC.swift in Sources */,
 				B58955591A1D745200A94698 /* AppDelegate.swift in Sources */,
 				B583138F1A1D795700CC7217 /* LoginVC.swift in Sources */,
 			);
